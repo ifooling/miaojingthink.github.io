@@ -1,4 +1,4 @@
-[miaojingthink.github.io](www.gisthinking.com)
+[gisthinking](http://www.gisthinking.com/)
 
 
 
