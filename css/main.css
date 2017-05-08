@@ -16,7 +16,7 @@ ul, ol {
     list-style-type: none;
 }
 body {
-    background: #92b3a2 url(../images/bg.jpg) repeat 0 0;
+    background: url(../images/bg.jpg) no-repeat center top;
     font-size: 14px;
     line-height: 1.5;
     font-family: Georgia, Hiragino Sans GB,\5b8b\4f53;
@@ -78,7 +78,7 @@ a         { color: #91736b; text-decoration: none; }
 .logo a:hover {
     color: rgba(255, 255, 255, 0.7);
     background-position: 0 0;
-}
+} 
 .nav {
     width: 610px;
     padding-top: 82px;
@@ -190,7 +190,7 @@ a         { color: #91736b; text-decoration: none; }
      line-height: 24px;
 }
 .main .article a:hover {
-    border-bottom: 3px double rgba(0, 0, 0, 0.1);
+    border-bottom: 3px double rgba(255, 0, 0, 0.1);
 }
 .main .article .bdsharebuttonbox a:hover {
 	border-bottom: 0px solid rgba(0, 0, 0, 0.1);
@@ -334,13 +334,13 @@ a         { color: #91736b; text-decoration: none; }
     margin-bottom: 30px;
 }
 .main .article .info-title {
-    color: #888;
+    color:blueviolet;
     vertical-align: middle;
     line-height: 24px;
 }
 .main .article .info-date {
     margin-right: 15px;
-    color: #565656;
+    color: red;
     line-height: 24px;
     vertical-align: middle;
 }

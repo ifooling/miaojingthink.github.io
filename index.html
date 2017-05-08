@@ -11,8 +11,8 @@ keywords: Java blog,Jekyll
         </article>
         <a href="{{ site.url }}{{ post.url }}" class="more"><i class="icon-link"></i></a>
         <div class="info">
-            <span class="info-title"><i class="icon-calendar"></i> Published: </span>
-            <span class="info-date">{{ post.date | date_to_string }}</span>
+            <span class="info-title"><i class="icon-calendar"></i> 发布时间: </span>
+            <span class="info-date">{{ post.date | date: '%Y年%m月%d日' }}</span>
         </div>
     </div>
 {% endfor %}
