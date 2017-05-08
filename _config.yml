@@ -43,7 +43,7 @@ timezone:      null
 title: thinking
 description: java,c#,html
 keywords: java,c#,html
-url: https://www.gisthinking.com
+url: http://www.gisthinking.com
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -80,11 +80,11 @@ follow:
   - class: icon-facebook
     url: http://facebook.com/
   - class: icon-github-alt
-    url: https://github.com/miaojingThink
+    url: http://github.com/miaojingThink
   - class: icon-twitter
-    url: https://twitter.com/zhujiajun_me
+    url: http://twitter.com/zhujiajun_me
   - class: icon-google-plus
-    url: https://plus.google.com/116595571760191938657/about
+    url: http://plus.google.com/116595571760191938657/about
 
 #Links
 customLinks:
@@ -94,7 +94,7 @@ customLinks:
     - text: Jekyll
       url: http://jekyllrb.com
     - text: Jekyll Theme
-      url: https://www.gisthinking.com/themes.html
+      url: http://www.gisthinking.com/themes.html
     message: Friends    
   - item:
     - text: Java Code Geeks
