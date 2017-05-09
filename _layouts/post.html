@@ -1,8 +1,4 @@
----
-layout: default
-comment: true
-keywords: Java blog,Post
----
+--- layout: default comment: true keywords: Java blog,Post ---
 <div class="article article-post">
     <h2 class="title">{{ page.title }}</h2>
     <div class="info">
@@ -14,19 +10,41 @@ keywords: Java blog,Post
     {{ content }}
     <nav class="article-previous fn-clear">
         {% if page.previous %}
-        <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
-        {% endif %}
-        {% if page.next %}
-        <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
-        {% endif %}
+        <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>        {% endif %} {% if page.next %}
+        <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>        {% endif %}
     </nav>
-    <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a></div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{},"image":{"viewList":["weixin","youdao","qzone","tsina","evernotecn"],"viewText":"分享到：","viewSize":"24"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    </div>
+    <script>
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "1",
+                "bdSize": "24"
+            },
+            "share": {},
+            "image": {
+                "viewList": ["weixin", "evernotecn", "youdao", "qzone", "tsina"],
+                "viewText": "分享到：",
+                "viewSize": "24"
+            }
+        };
+        with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script>
     <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
     <script>
         var cloudTieConfig = {
-            url: document.location.href, 
+            url: document.location.href,
             sourceId: "",
             productKey: "9be1e73e3bdf46548ad4bb977497999f",
             target: "cloud-tie-wrapper"
